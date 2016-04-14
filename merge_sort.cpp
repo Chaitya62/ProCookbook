@@ -2,8 +2,8 @@
 #include<iostream>
 #include<stdlib.h>  /* malloc, free, rand */
 using namespace std;
-int A[]= {1,10,11,9,6,7,10};
-int merge_(int ,int );
+int A[]= {1,123,121,5432,22,221,13423,21,13,21,21,2134}; //here you place your array
+int merge_(int ,int );  //
 int merge_sort(int first ,int last){
     if(first==last) return 0 ;
     cout<<"First = "<<first<<"last = "<<last;
@@ -16,7 +16,7 @@ int merge_sort(int first ,int last){
 
     return 0;
 }
-int merge_(int c,int b){
+int merge_(int c,int b){   //This guy merges the sub-arrays
     int s = c+b;
     int j=0,k=0,temp;
     for(int i=0;i<s;i++){
@@ -42,9 +42,11 @@ int main(){
         cin>>*(A+i);
     }
     */
-    merge_sort(0,7);
-    for(int i=0;i<7;i++){
-        cout<<*(A+i);
+    int n = sizeof(A)/sizeof(int);
+    cout<<n<<endl;
+    merge_sort(0,n-1);
+    for(int i=0;i<n;i++){
+        cout<<*(A+i)<<" ";
     }
     int a;
     cin>>a;
