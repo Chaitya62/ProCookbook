@@ -2,17 +2,21 @@
 #include<iostream>
 #include<stdlib.h>  /* malloc, free, rand */
 using namespace std;
-int A[]= {1,123,121,5432,22,221,13423,21,13,21,21,2134}; //here you place your array
+int A[]= {1,24,28,24,26,27,28}; //here you place your array
 int merge_(int ,int );  //
 int merge_sort(int first ,int last){
+     cout<<"First = "<<first<<" last = "<<last<<endl;
     if(first==last) return 0 ;
-    cout<<"First = "<<first<<"last = "<<last;
     int mid;
-    if((last-first)<2) merge_(first,last);
+    if((last-first)<2) {
+            merge_(1,1);
+            return 0;
+    }
     mid = first + (last-first)/2;
     merge_sort(first,mid);
+     cout<<"First = "<<first<<" last = "<<last<<" Mid = "<<mid<<endl;
     merge_sort(mid+1,last);
-    merge_(first,last);
+    merge_(mid-first,last-mid);
 
     return 0;
 }
@@ -20,9 +24,10 @@ int merge_(int c,int b){   //This guy merges the sub-arrays
     int s = c+b;
     int j=0,k=0,temp;
     for(int i=0;i<s;i++){
-        cout<<"j = "<<j<<"k= "<<k<<endl;
+        cout<<"j = "<<j<<"k= "<<c+k<<endl;
         if(j==c || k==b) break;
         if(A[j]>A[c+k]){
+            cout<<"A[j] ="<<A[j]<<" A[c+k] = "<<A[c+k];
             temp = A[j];
             A[j] = A[c+k];
             A[c+k] = temp;
@@ -45,6 +50,7 @@ int main(){
     int n = sizeof(A)/sizeof(int);
     cout<<n<<endl;
     merge_sort(0,n-1);
+//merge_(3,4);
     for(int i=0;i<n;i++){
         cout<<*(A+i)<<" ";
     }
