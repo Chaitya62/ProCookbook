@@ -4,7 +4,7 @@
 import random
 test_case = []
 (start,end) = (1,10000) #range for test cases
-numberOfTestCase = 20000      #read the variable name
+numberOfTestCase = 200000     #read the variable name
 for i in range(numberOfTestCase):
     test_case.append(random.randrange(start,stop=end))
 
