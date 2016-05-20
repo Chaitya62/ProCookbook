@@ -1,4 +1,4 @@
-/*Bubble Sort
+/*Selection Sort
 Written by Chaitya Shah
 */
 #include<iostream>
