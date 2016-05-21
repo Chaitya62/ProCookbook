@@ -7,7 +7,7 @@ Written by Chaitya Shah
 using namespace std;
 int start_watch;
 typedef long long datatype;  //replace long long with desired datatype
-int selection_sort(datatype *A,datatype N){
+int insertion_sort(datatype *A,datatype N){
     start_watch = clock();
     datatype min,temp,pointer;
     for(datatype i=0;i<N;i++){
@@ -33,7 +33,7 @@ int main(){
     A = (datatype *) malloc(N*sizeof(datatype));  //Can also use calloc()
     for(int i = 0;i<N;i++) cin>>A[i];
     /*Bubble Sort  */
-    selection_sort(A,N);
+    insertion_sort(A,N);
     for(int i=0;i<N;i++) cout<<"\n"<<A[i]<<" ";
     float stop_watch = clock();
     cout<<"\n Execution time :   "<<(stop_watch-start_watch)/CLOCKS_PER_SEC<<" seconds"<<endl;
