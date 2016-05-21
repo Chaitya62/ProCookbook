@@ -10,7 +10,7 @@ for i in range(numberOfTestCase):
 
 input_file = open("input_file.txt","w")
 for i in test_case:
-    s = str(i) + " "
+    s = str(i) + "\n"
     input_file.write(s)
 
 input_file.close()

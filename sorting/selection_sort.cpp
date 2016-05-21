@@ -37,12 +37,13 @@ int main(){
     N = 200000; //enter the numberOFTestCases here
     A = (datatype *) malloc(N*sizeof(datatype));  //Can also use calloc()
     for(int i = 0;i<N;i++) cin>>A[i];
-    /*Bubble Sort  */
+
+    /*Selection Sort  */
     selection_sort(A,N);
     for(int i=0;i<N;i++) cout<<"\n"<<A[i]<<" ";
+    free(A);
     float stop_watch = clock();
     cout<<"\n Execution time :   "<<(stop_watch-start_watch)/CLOCKS_PER_SEC<<" seconds"<<endl;
-    //cin>>N;
     return 0;
 }
 
