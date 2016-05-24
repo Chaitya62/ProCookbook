@@ -5,6 +5,7 @@
     3.Insertion Sort
 	4.Shell Sort
 	5.Merge Sort
+	6.Quick Sort (without shuffling)
   
 #####Not Catagorized
 1. Merge Sort  (Incomplete trying inplace mergesort) 

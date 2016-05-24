@@ -46,6 +46,7 @@ int sort_(datatype *A,datatype *B,datatype lo,datatype hi){
 
 
 int merge_sort(datatype *A,datatype N){
+    start_watch = clock();
     datatype *B;      //Helping array
     B = (datatype *) malloc(N*sizeof(datatype));
     sort_(A,B,0,N-1);
