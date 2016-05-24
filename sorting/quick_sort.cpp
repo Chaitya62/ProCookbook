@@ -17,19 +17,16 @@ inline int swap_(datatype *A,datatype a, datatype b){     // just for swapping
 
 
 datatype partition_(datatype *A,datatype lo,datatype hi){    //partitioning read about quick sort for more details
-    datatype i = lo;
-    datatype j = hi+1;
-    datatype temp;
-    while(true){
-        while(A[++i]<A[lo]) if(i==hi) break;
-
-        while(A[--j]>A[lo]) if(j==lo) break;
-
-        if(i>=j) break;
-        swap_(A,i,j);
+    datatype i = lo+1;
+    datatype j;
+    for(j=lo+1;j<=hi;j++){
+        if(A[j]<A[lo]){      //A[lo]  is pivot
+                swap_(A,i,j);
+                i++;
+        }
     }
-    swap_(A,lo,j);
-    return j;
+    swap_(A,lo,i-1);
+    return i-1;
 }
 int sort_(datatype *A,datatype lo,datatype hi){     //recursive partitioning the halves
     if(hi<=lo) return 0;
