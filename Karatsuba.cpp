@@ -5,7 +5,7 @@
 using namespace std;
 typedef long long uii;
 uii mul(uii x,uii y){
-    cout<<x<<" "<<y<<endl;
+    //cout<<x<<" "<<y<<endl;
     uii a,b;
     b = x%10;
     a = x/10;
@@ -30,10 +30,11 @@ int main(){
     uii x,y;
     uii ans=1;
     cin>>x>>y;
-    for(uii i=0;i<y/2;i++){
+    cout<<mul(x,y)<<" answer"<<endl;
+    /*for(uii i=0;i<y/2;i++){
         ans*=mul(x,x);
-    }
-    cout<<ans;
+    }*/
+    //cout<<ans;
     int f;
     cin>>f;
 
