@@ -7,7 +7,11 @@
 	5.Merge Sort										[_Execution_ _time_ :  0.86 seconds ]
 	6.Quick Sort (without shuffling)					[_Execution_ _time_ : 0.817 seconds ]
 	7.Count Sort										[_Execution_ _time_ :  0.645 seconds ]
-  
+ 
+#### Graph 
+	1.Graph API
+	2.Depth first search
+ 
 #####Not Catagorized
 1. Merge Sort  (Incomplete trying inplace mergesort) 
 2. Karatsuba's multiplication 
