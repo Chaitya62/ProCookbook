@@ -76,7 +76,6 @@ int main(){
         cout<<endl;
     }
 
-    cin>>V;
 
     return 0;
 }
