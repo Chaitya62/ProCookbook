@@ -13,6 +13,9 @@
 	2.Depth first search
 	3.Breadth first search
  
-#####Not Catagorized
+##### Not Catagorized
 	1. Merge Sort  (Incomplete trying inplace mergesort) 
 	2. Karatsuba's multiplication 
+
+#### Data Structures
+	1. Stack 
