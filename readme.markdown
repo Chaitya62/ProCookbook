@@ -64,4 +64,5 @@
 	28. Mo's Algorithm
 	29. Minimum Spanning Tree
 	30. FFT
+	31. Towers of hanoi
 
