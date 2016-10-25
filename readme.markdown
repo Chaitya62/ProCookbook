@@ -12,7 +12,7 @@
 	1.Graph API
 	2.Depth first search
 	3.Breadth first search
- 
+
 ##### Not Catagorized
 	1. Merge Sort  (Incomplete trying inplace mergesort) 
 	2. Karatsuba's multiplication 
@@ -65,4 +65,9 @@
 	29. Minimum Spanning Tree
 	30. FFT
 	31. Towers of hanoi
-
+    32. Heacy Light Decomposition
+    33. Suffix Tree Automation(Pattern Searching)
+    34. Binary Indexed Tree
+    35. Z Algorithm
+    36. Line Intersection Algorithm
+    37. Topological Sorting
