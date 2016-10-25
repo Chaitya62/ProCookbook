@@ -22,7 +22,7 @@ int count_sort(datatype *A,datatype N,datatype max_){
             j++;
         }
     }
-    free(B);
+    delete [] B;
     return 0;
 
 }
