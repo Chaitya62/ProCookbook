@@ -32,6 +32,8 @@
 	5. Priority Queue
 	6. Tries
 	7. Bag
+	8. Segment Tree
+	9. Fenwick Tree
 
 #### Algorithms
 	1. GCD 
@@ -71,3 +73,11 @@
     35. Z Algorithm
     36. Line Intersection Algorithm
     37. Topological Sorting
+	38. Segment Tree(Lazy Propagation)
+	39. Interval Tree
+	40. Hungarian Algorithm
+	41. Matrix Exponentiation
+	42. Gaussian Elimination
+	43. Pollard Rho Integer Factorisation
+	44. Eulerian and Hamiltonian Path
+	45. Blossom/Edmond's Algorithm
