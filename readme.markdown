@@ -71,3 +71,5 @@
     35. Z Algorithm
     36. Line Intersection Algorithm
     37. Topological Sorting
+    38. Binary Search
+    39. Hash Function
