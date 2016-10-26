@@ -19,6 +19,7 @@
 
 #### Data Structures
 	1. Stack
+	2. Segment Tree
 
 
 
@@ -32,8 +33,7 @@
 	5. Priority Queue
 	6. Tries
 	7. Bag
-	8. Segment Tree
- +	9. Fenwick Tree
+  	8. Fenwick Tree
 
 #### Algorithms
 	1. GCD 
@@ -77,10 +77,10 @@
 	39. Hash Function
 	40. Segment Trees(Lazy Propagation)
 	41. Vertex Cover Problem
- +	42. Interval Tree
- +	43. Hungarian Algorithm
- +	44. Matrix Exponentiation
- +	45. Gaussian Elimination
- +	46. Pollard Rho Integer Factorisation
- +	47. Eulerian and Hamiltonian Path
- +	48. Blossom/Edmond's Algorithm
+ 	42. Interval Tree
+ 	43. Hungarian Algorithm
+ 	44. Matrix Exponentiation
+ 	45. Gaussian Elimination
+ 	46. Pollard Rho Integer Factorisation
+ 	47. Eulerian and Hamiltonian Path
+ 	48. Blossom/Edmond's Algorithm
