@@ -50,6 +50,7 @@ int merge_sort(datatype *A,datatype N){
     datatype *B;      //Helping array
     B = (datatype *) malloc(N*sizeof(datatype));
     sort_(A,B,0,N-1);
+    free(B);
     return 0;
 }
 
