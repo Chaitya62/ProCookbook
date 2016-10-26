@@ -73,3 +73,5 @@
     37. Topological Sorting
     38. Binary Search
     39. Hash Function
+    40. Segment Trees
+    41. Vertex Cover Problem
