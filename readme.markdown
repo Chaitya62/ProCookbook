@@ -32,6 +32,8 @@
 	5. Priority Queue
 	6. Tries
 	7. Bag
+	8. Segment Tree
+ +	9. Fenwick Tree
 
 #### Algorithms
 	1. GCD 
@@ -65,13 +67,20 @@
 	29. Minimum Spanning Tree
 	30. FFT
 	31. Towers of hanoi
-    32. Heacy Light Decomposition
-    33. Suffix Tree Automation(Pattern Searching)
-    34. Binary Indexed Tree
-    35. Z Algorithm
-    36. Line Intersection Algorithm
-    37. Topological Sorting
-    38. Binary Search
-    39. Hash Function
-    40. Segment Trees
-    41. Vertex Cover Problem
+	32. Heacy Light Decomposition
+	33. Suffix Tree Automation(Pattern Searching)
+	34. Binary Indexed Tree
+	35. Z Algorithm
+	36. Line Intersection Algorithm
+	37. Topological Sorting
+	38. Binary Search
+	39. Hash Function
+	40. Segment Trees(Lazy Propagation)
+	41. Vertex Cover Problem
+ +	42. Interval Tree
+ +	43. Hungarian Algorithm
+ +	44. Matrix Exponentiation
+ +	45. Gaussian Elimination
+ +	46. Pollard Rho Integer Factorisation
+ +	47. Eulerian and Hamiltonian Path
+ +	48. Blossom/Edmond's Algorithm
