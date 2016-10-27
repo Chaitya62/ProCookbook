@@ -84,3 +84,4 @@
 46. [Pollard Rho Integer Factorisation]()
 47. [Eulerian and Hamiltonian Path]()
 48. [Blossom/Edmond's Algorithm]()
+49. [Sorting Algorithms](https://rosettacode.org/wiki/Category:Sorting_Algorithms)
