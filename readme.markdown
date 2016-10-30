@@ -35,6 +35,14 @@
 8. Segment Tree
 9. Fenwick Tree
 
+#### Resources
+##### Useful Sites
+* [HackerRank](http://hackerrank.com/) 
+* [Codeforces](http://codeforces.com/) 
+* [CodeChef](https://www.codechef.com/) 
+* [TopCoder](https://www.topcoder.com/)
+* [e-maxx](http://e-maxx.ru/) - for Russian readers
+
 #### Algorithms
 1. [GCD](https://en.wikipedia.org/wiki/Greatest_common_divisor) - [The Euclidean Algorithm](https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/the-euclidean-algorithm) - [The Extended Euclidean Algorithm](http://www-math.ucdenver.edu/~wcherowi/courses/m5410/exeucalg.html)
 2. [Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes) - [Sieve of Eratosthenes](http://primes.utm.edu/glossary/xpage/sieveoferatosthenes.html) - [Examples](http://www.geeksforgeeks.org/sieve-of-eratosthenes/)
