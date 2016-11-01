@@ -1,5 +1,5 @@
 /*
-Written By 
+Written by 
 Chaitya Shah
 */
 #include<iostream>
