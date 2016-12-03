@@ -1,0 +1,11 @@
+#Ignore all
+*
+
+#Un - Ignore files with extensions
+!*.*
+
+#Un - Ignore Directories
+!*/
+
+#Un - Ignore Makefiles
+!Makefile
