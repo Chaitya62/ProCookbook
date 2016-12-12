@@ -14,8 +14,8 @@
 3. Breadth first search  
 
 ##### Not Catagorized
-1. Merge Sort  (Incomplete trying inplace mergesort)
-2. Karatsuba's multiplication
+1. [Merge Sort  (Incomplete trying inplace mergesort)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.22.8523&rep=rep1&type=pdf){:target="_blank"}
+2. [Karatsuba's multiplication](){:target="_blank"}
 3. [Union Find](https://www.hackerearth.com/practice/notes/disjoint-set-union-union-find/)
 
 #### Number Theory
@@ -48,51 +48,54 @@
 * [TopCoder](https://www.topcoder.com/)
 * [e-maxx](http://e-maxx.ru/) - for Russian readers
 
+#####Courses
+* []
+
 #### Algorithms
 
-1. [Knuth-Morris-Pratt Algorihm(KMP)](https://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm) - [Knuth–Morris–Pratt algorithm](http://www.ics.uci.edu/~eppstein/161/960227.html) - [Example](http://www.geeksforgeeks.org/searching-for-patterns-set-2-kmp-algorithm/)
-2. [Rabin-Karp Algorithm](https://en.wikipedia.org/wiki/Rabin%E2%80%93Karp_algorithm) - [Rabin-Karp and Knuth-Morris-Pratt Algorithms](https://www.topcoder.com/community/data-science/data-science-tutorials/introduction-to-string-searching-algorithms/) - [Example](http://www.geeksforgeeks.org/searching-for-patterns-set-3-rabin-karp-algorithm/)
-3. [Dijkstra's Algorithm(shortest Path)](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm) - [Dijkstra (Heap method)](https://www.topcoder.com/community/data-science/data-science-tutorials/introduction-to-graphs-and-their-data-structures-section-3/#dijkstra)
-4. [Floyd Warshall Algorithm]()
-5. [Sparse Table(RMQ)]()
-6. [Lowest Common Ancestor]()
-7. [Modular Exponentiation]()
-8. [Counting inversion]()
-9. [Euclid's Extended Algorithm]()
-10. [Knapsack problem]()
-11. [Aho-Corasick String Matching Algorithm]()
-12. [Strongly connected Components]()
+1. [Knuth-Morris-Pratt Algorihm(KMP)](https://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm) - [Knuth–Morris–Pratt algorithm](http://www.ics.uci.edu/~eppstein/161/960227.html) - [Example](http://www.geeksforgeeks.org/searching-for-patterns-set-2-kmp-algorithm/){:target="_blank"}
+2. [Rabin-Karp Algorithm](https://en.wikipedia.org/wiki/Rabin%E2%80%93Karp_algorithm) - [Rabin-Karp and Knuth-Morris-Pratt Algorithms](https://www.topcoder.com/community/data-science/data-science-tutorials/introduction-to-string-searching-algorithms/) - [Example](http://www.geeksforgeeks.org/searching-for-patterns-set-3-rabin-karp-algorithm/){:target="_blank"}
+3. [Dijkstra's Algorithm(shortest Path)](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm) - [Dijkstra (Heap method)](https://www.topcoder.com/community/data-science/data-science-tutorials/introduction-to-graphs-and-their-data-structures-section-3/#dijkstra){:target="_blank"}
+4. [Floyd Warshall Algorithm](){:target="_blank"}
+5. [Sparse Table(RMQ)](){:target="_blank"}
+6. [Lowest Common Ancestor](){:target="_blank"}
+7. [Modular Exponentiation](){:target="_blank"}
+8. [Counting inversion](){:target="_blank"}
+9. [Euclid's Extended Algorithm](){:target="_blank"}
+10. [Knapsack problem](){:target="_blank"}
+11. [Aho-Corasick String Matching Algorithm](){:target="_blank"}
+12. [Strongly connected Components](){:target="_blank"}
 13. ---[Union-Find]()---
-14. [Bellman Ford Algorithm]()
-15. [Convex Hull]()
-16. [K-d tree]()
-17. [Manacher's Algorithm]()
-18. [Sweep Line Algorithm]()
-19. [Stable Marriage Problem]()
-20. [Detecting Cycles in a Graph]()
-21. [Backtracking]()
-22. [Graph Coloring]()
-23. [Johnson's Alogrithm]()
-24. [Link Cut tree]()
-25. [Burnside Lemma]()
-26. [Mo's Algorithm]()
-27. [Minimum Spanning Tree]()
-28. [FFT]()
-29. [Towers of hanoi]()
-30. [Heacy Light Decomposition]()
-31. [Suffix Tree Automation(Pattern Searching)]()
-32. [Binary Indexed Tree]()
-33. [Z Algorithm]()
-34. [Line Intersection Algorithm]()
-35. [Topological Sorting]()
-36. [Binary Search]()
-37. [Hash Function]()
-38. [Segment Trees(Lazy Propagation)]()
-39. [Vertex Cover Problem]()
-40. [Interval Tree]()
-41. [Hungarian Algorithm]()
-42. [Matrix Exponentiation]()
-43. [Gaussian Elimination]()
-44. [Pollard Rho Integer Factorisation]()
-45. [Eulerian and Hamiltonian Path]()
-46. [Blossom/Edmond's Algorithm]()
+14. [Bellman Ford Algorithm](){:target="_blank"}
+15. [Convex Hull](){:target="_blank"}
+16. [K-d tree](){:target="_blank"}
+17. [Manacher's Algorithm](){:target="_blank"}
+18. [Sweep Line Algorithm](){:target="_blank"}
+19. [Stable Marriage Problem](){:target="_blank"}
+20. [Detecting Cycles in a Graph](){:target="_blank"}
+21. [Backtracking](){:target="_blank"}
+22. [Graph Coloring](){:target="_blank"}
+23. [Johnson's Alogrithm](){:target="_blank"}
+24. [Link Cut tree](){:target="_blank"}
+25. [Burnside Lemma](){:target="_blank"}
+26. [Mo's Algorithm](){:target="_blank"}
+27. [Minimum Spanning Tree](){:target="_blank"}
+28. [FFT](){:target="_blank"}
+29. [Towers of hanoi](){:target="_blank"}
+30. [Heacy Light Decomposition](){:target="_blank"}
+31. [Suffix Tree Automation(Pattern Searching)](){:target="_blank"}
+32. [Binary Indexed Tree](){:target="_blank"}
+33. [Z Algorithm](){:target="_blank"}
+34. [Line Intersection Algorithm](){:target="_blank"}
+35. [Topological Sorting](){:target="_blank"}
+36. [Binary Search](){:target="_blank"}
+37. [Hash Function](){:target="_blank"}
+38. [Segment Trees(Lazy Propagation)](){:target="_blank"}
+39. [Vertex Cover Problem](){:target="_blank"}
+40. [Interval Tree](){:target="_blank"}
+41. [Hungarian Algorithm](){:target="_blank"}
+42. [Matrix Exponentiation](){:target="_blank"}
+43. [Gaussian Elimination](){:target="_blank"}
+44. [Pollard Rho Integer Factorisation](){:target="_blank"}
+45. [Eulerian and Hamiltonian Path](){:target="_blank"}
+46. [Blossom/Edmond's Algorithm](){:target="_blank"}
