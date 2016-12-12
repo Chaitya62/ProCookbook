@@ -16,6 +16,7 @@
 ##### Not Catagorized
 1. Merge Sort  (Incomplete trying inplace mergesort)
 2. Karatsuba's multiplication
+3. [Union Find](https://www.hackerearth.com/practice/notes/disjoint-set-union-union-find/)
 
 #### Number Theory
 1. [GCD](https://en.wikipedia.org/wiki/Greatest_common_divisor) - [The Euclidean Algorithm](https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/the-euclidean-algorithm) - [The Extended Euclidean Algorithm](http://www-math.ucdenver.edu/~wcherowi/courses/m5410/exeucalg.html)
@@ -61,7 +62,7 @@
 10. [Knapsack problem]()
 11. [Aho-Corasick String Matching Algorithm]()
 12. [Strongly connected Components]()
-13. [Union-Find]()
+13. ---[Union-Find]()---
 14. [Bellman Ford Algorithm]()
 15. [Convex Hull]()
 16. [K-d tree]()
