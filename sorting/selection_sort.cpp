@@ -17,7 +17,7 @@ int selection_sort(datatype *A,datatype N){
                 min = j;
             }
         }
-        if(min!=A[i]){
+        if(A[min]!=A[i]){
             temp = A[i];
             A[i] = A[min];
             A[min] = temp;
