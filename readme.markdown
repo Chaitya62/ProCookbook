@@ -39,6 +39,7 @@
 7. Bag
 8. Segment Tree
 9. Fenwick Tree
+10. HLD on Trees
 
 #### Resources
 ##### Useful Sites
