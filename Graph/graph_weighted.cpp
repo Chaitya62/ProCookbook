@@ -5,8 +5,6 @@
 #include<map>
 #include<cstring>
 #include<set>
-#include<queue>
-#include<stack>
 using namespace std;
 #define uii long long int
 #define it(a)  ::iterator a
@@ -21,11 +19,9 @@ using namespace std;
 #define tc(a) uii a; for(scanf("%lld",&a);a--;)
 #define swap(a,b) a = a^b; b = a^b;a = a^b;
 /*
- G[i] contains vector of pairs with first = weight
+ G[i] contains vector of pairs with first = weight 
  and second = other node
 */
-bool visited[SIZE];
-queue< pair<uii,uii> > q;
 vector< pair<uii,uii> > G[SIZE];
 void addEdge(uii a, uii b, uii w){
 	G[a].push_back(make_pair(w,b));
@@ -34,23 +30,6 @@ void addEdge(uii a, uii b, uii w){
 } 
 void addDirectedEdge(uii a, uii b, uii w){
 	G[a].push_back(make_pair(w,b));
-	return;
-}
-void  bfs(uii a){
-	q.push(make_pair(0,a));
-	vector< pair<uii,uii> > ::iterator it;
-	while(!q.empty()){
-		pair<uii,uii> p = q.front();
-		q.pop();
-		//cout<<p.second<<endl;
-		if(visited[p.second]) continue;
-		visited[p.second] = true;
-		for(it = G[p.second].begin();it!=G[p.second].end();it++){
-			if(!visited[it->second]) q.push((*it));
-		}
-
-		cout<<" "<<p.second<<" ";
-	}
 	return;
 }
 void printGraph(uii N){
@@ -65,14 +44,12 @@ void printGraph(uii N){
 }
 int main(){
      	/*Simple test */
-	addEdge(1,4,10);
-	addEdge(4,3,10);
-	addEdge(3,2,2);
-	addEdge(3,4,1);
+	addEdge(1,2,10);
+	addEdge(2,3,10);
+	addEdge(1,4,2);
+	addEdge(2,4,1);
 	printGraph(4);
-   	cout<<"BFS :";
-	bfs(1);
-	cout<<endl;
+   
 
 
 

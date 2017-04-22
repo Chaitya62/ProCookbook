@@ -1,81 +1,74 @@
-/*Adjacency list graph implementation */
 #include<iostream>
 #include<vector>
+#include<cstdio>
+#include<algorithm>
+#include<map>
+#include<cstring>
+#include<set>
+#include<stack>
 using namespace std;
-vector< vector<int> > G;
-vector<int> ::iterator it;
-bool *marked;
-int *edgeTo;
-
-//Recursively visiting the graph
-void visit(int v){
-     marked[v-1] = 1;
-     vector<int> ::iterator it;
-    for(it = G[v-1].begin();it!=G[v-1].end();it++){
-        if(marked[(*it)-1] != 1){
-            visit(*it);
-            edgeTo[(*it)-1] = v;
-        }
-    }
+#define uii long long int
+#define it(a)  ::iterator a
+#define slld(a) uii a;scanf("%lld",&a)
+#define ss(a) scanf("%s",a)
+#define plld(a) printf("%lld",a)
+#define MAX 10000
+#define MOD 1000000007
+#define SIZE 100000
+#define powOf2(a) !(a&a-1)
+#define mod(a) (a>0 ? a : (-1*a))
+#define tc(a) uii a; for(scanf("%lld",&a);a--;)
+#define swap(a,b) a = a^b; b = a^b;a = a^b;
+/*
+ G[i] contains vector of pairs with first = weight  
+ and second = other node
+*/
+bool visited[SIZE];
+vector< pair<uii,uii> > G[SIZE];
+void addEdge(uii a, uii b, uii w){
+	G[a].push_back(make_pair(w,b));
+	G[b].push_back(make_pair(w,a));
+	return;
+} 
+void addDirectedEdge(uii a, uii b, uii w){
+	G[a].push_back(make_pair(w,b));
+	return;
+}
+void dfs(uii a){
+	if(visited[a]) return;
+	visited[a] = true;
+	cout<<a<<" ";
+	vector< pair<uii,uii> > ::iterator it;
+	for(it = G[a].begin();it!=G[a].end();it++){
+		if(!visited[it->second]) dfs(it->second);	
+	}
+	return;
+}
+void printGraph(uii N){
+	vector< pair<uii,uii> > ::iterator it;
+	for(uii i = 1;i<=N;i++){
+		for(it= G[i].begin();it!=G[i].end();it++){
+			cout<<i<<" ---> "<<it->second<<" W: "<<it->first<<endl;
+		}
+	}	 	
+	return;
 
 }
-//starting the depth first search
-void dfs(int s){
-    visit(s);
-    return ;
-
-}
-//initializing the graph
-int initializeGraph(int V){
-     vector<int> a ;
-    for(int i=0;i<V;i++){
-        G.push_back(a);
-    }
-    return 0;
-}
-
-//connect two vertices
-int connect(int a, int b){
-    G[a-1].push_back(b);
-    G[b-1].push_back(a);
-    return 0;
-}
-
-
 int main(){
-    int V=5;  //number of vertices
-    initializeGraph(V);
-    marked = new bool[V]();
-    edgeTo = new int[V];
-    int a,b;
-    int E;
-    cin>>E;
-    for(int i=0;i<E;i++){
-        cin>>a>>b;
-        connect(a,b);
-    }
-    edgeTo[5-1] = -1;  //set the source
-    dfs(5);  //starting depth first search with source 5
-
-    //prints the marked vertices
-    for(int i=0;i<V;i++){
-        if(marked[i]==1) cout<<"Can visit :"<<i+1<<endl;
-    }
-    cout<<endl;
-    //prints how to get to  a particular vertex
-     for(int i=0;i<V;i++){
-        cout<<"For edge "<<i+1<<" : "<<edgeTo[i]<<endl;
-    }
-    cout<<endl;
-
-    //prints the adjacency list
-    for(int i=0;i<V;i++){
-        for(it=G[i].begin();it!=G[i].end();it++){
-            cout<<*it;
-        }
-        cout<<endl;
-    }
+     	/*Simple test */
+	addEdge(1,2,10);
+	addEdge(2,4,10);
+	addEdge(1,4,2);
+	addEdge(3,4,1);
+	printGraph(4);
+   	cout<<"DFS : ";
+	dfs(1);
+	cout<<endl;
 
 
-    return 0;
+
+
+	return 0;
 }
+
+

@@ -7,6 +7,7 @@
 #include<set>
 #include<queue>
 #include<stack>
+#include<climits>
 using namespace std;
 #define uii long long int
 #define it(a)  ::iterator a
@@ -16,6 +17,7 @@ using namespace std;
 #define MAX 10000
 #define MOD 1000000007
 #define SIZE 100000
+#define INF LLONG_MAX
 #define powOf2(a) !(a&a-1)
 #define mod(a) (a>0 ? a : (-1*a))
 #define tc(a) uii a; for(scanf("%lld",&a);a--;)
@@ -25,7 +27,8 @@ using namespace std;
  and second = other node
 */
 bool visited[SIZE];
-queue< pair<uii,uii> > q;
+uii dist[SIZE] ;
+set< pair<uii,uii> > pq;
 vector< pair<uii,uii> > G[SIZE];
 void addEdge(uii a, uii b, uii w){
 	G[a].push_back(make_pair(w,b));
@@ -36,20 +39,24 @@ void addDirectedEdge(uii a, uii b, uii w){
 	G[a].push_back(make_pair(w,b));
 	return;
 }
-void  bfs(uii a){
-	q.push(make_pair(0,a));
+void  dijsktra(uii a){
+	pq.insert(make_pair(0,a));
+	dist[a] = 0;
 	vector< pair<uii,uii> > ::iterator it;
-	while(!q.empty()){
-		pair<uii,uii> p = q.front();
-		q.pop();
-		//cout<<p.second<<endl;
+	while(!pq.empty()){
+		pair<uii,uii> p = *(pq.begin());
+		uii u = p.second;
+		pq.erase(pq.begin());
 		if(visited[p.second]) continue;
 		visited[p.second] = true;
 		for(it = G[p.second].begin();it!=G[p.second].end();it++){
-			if(!visited[it->second]) q.push((*it));
+			uii v = it->second;
+			uii w = it->first;
+			if(dist[v] > dist[u] + w){
+				dist[v] = dist[u] + w;
+				pq.insert(make_pair(dist[v],v));
+			}
 		}
-
-		cout<<" "<<p.second<<" ";
 	}
 	return;
 }
@@ -70,8 +77,13 @@ int main(){
 	addEdge(3,2,2);
 	addEdge(3,4,1);
 	printGraph(4);
-   	cout<<"BFS :";
-	bfs(1);
+	for(uii i = 1;i<=4;i++){
+		dist[i] = INF;
+	}
+   	dijsktra(1);
+	for(uii i = 1;i<=4;i++){
+		cout<<i<<" : "<<dist[i]<<endl;
+	}
 	cout<<endl;
 
 
