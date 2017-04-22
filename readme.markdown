@@ -48,6 +48,7 @@
 * [CodeChef](https://www.codechef.com/) 
 * [TopCoder](https://www.topcoder.com/)
 * [e-maxx](http://e-maxx.ru/) - for Russian readers
+* [e-maxx](https://e-maxx-eng.appspot.com/) - for English readers
 
 ##### Courses
 * []
