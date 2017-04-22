@@ -1,5 +1,5 @@
 #### List of Algorithms
-#####Sorting
+##### Sorting
     1. Bubble Sort 										[_Execution_ _time_ : 199.22 seconds ]  
     2. Selection Sort									[_Execution_ _time_ : 75.192 seconds ]  
     3. Insertion Sort									[_Execution_ _time_ : 52.833 seconds ]  
@@ -49,7 +49,7 @@
 * [TopCoder](https://www.topcoder.com/)
 * [e-maxx](http://e-maxx.ru/) - for Russian readers
 
-#####Courses
+##### Courses
 * []
 
 #### Algorithms
@@ -66,7 +66,7 @@
 10. [Knapsack problem]()
 11. [Aho-Corasick String Matching Algorithm]()
 12. [Strongly connected Components]()
-13. ---[Union-Find]()---
+13. [Union-Find]()
 14. [Bellman Ford Algorithm]()
 15. [Convex Hull]()
 16. [K-d tree]()
