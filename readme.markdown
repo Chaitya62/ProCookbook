@@ -12,6 +12,8 @@
 1. Graph API  
 2. Depth first search  
 3. Breadth first search  
+4. Dijkstra's Algorithm
+5. Floyd-Warshall's Algorithm
 
 ##### Not Catagorized
 1. [Merge Sort  (Incomplete trying inplace mergesort)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.22.8523&rep=rep1&type=pdf)
