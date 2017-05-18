@@ -21,11 +21,17 @@
 3. [Union Find](https://www.hackerearth.com/practice/notes/disjoint-set-union-union-find/)
 
 #### Number Theory
-1. [GCD](https://en.wikipedia.org/wiki/Greatest_common_divisor) - [The Euclidean Algorithm](https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/the-euclidean-algorithm) - [The Extended Euclidean Algorithm](http://www-math.ucdenver.edu/~wcherowi/courses/m5410/exeucalg.html)
-2. [Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes) - [Sieve of Eratosthenes](http://primes.utm.edu/glossary/xpage/sieveoferatosthenes.html) - [Examples](http://www.geeksforgeeks.org/sieve-of-eratosthenes/)
+1. [GCD](https://en.wikipedia.org/wiki/Greatest_common_divisor) 
+- [The Euclidean Algorithm](https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/the-euclidean-algorithm) 
+- [The Extended Euclidean Algorithm](http://www-math.ucdenver.edu/~wcherowi/courses/m5410/exeucalg.html)
+
+2. [Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes) 
+- [Sieve of Eratosthenes](http://primes.utm.edu/glossary/xpage/sieveoferatosthenes.html) 
+- [Examples](http://www.geeksforgeeks.org/sieve-of-eratosthenes/)
 
 #### Data Structures
 1. Stack
+2. Trie
 
 
 
@@ -37,7 +43,7 @@
 3. Linked Lists
 4. Maps
 5. Priority Queue
-6. Tries
+6. <del>Tries</del>
 7. Bag
 8. Segment Tree
 9. Fenwick Tree
