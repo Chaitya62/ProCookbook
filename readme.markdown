@@ -17,18 +17,21 @@
 
 ##### Not Catagorized
 1. Merge Sort  (Incomplete trying inplace mergesort) | [READ](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.22.8523&rep=rep1&type=pdf)
-2. Karatsuba's multiplication
-3. Union Find | [Tutorial](https://www.hackerearth.com/practice/notes/disjoint-set-union-union-find/)
+
+
 
 #### Number Theory
 1. GCD | [wiki](https://en.wikipedia.org/wiki/Greatest_common_divisor) | [Euclidean Algorithm](https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/the-euclidean-algorithm) | [Extended Euclidean](http://www-math.ucdenver.edu/~wcherowi/courses/m5410/exeucalg.html)
 
 2. Sieve of Eratosthenes | [wiki](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes) | [tutorial](http://primes.utm.edu/glossary/xpage/sieveoferatosthenes.html) | [Examples](http://www.geeksforgeeks.org/sieve-of-eratosthenes/)
 
+3. Karatsuba's multiplication
+
+
 #### Data Structures
 1. Stack
 2. Trie
-
+3. Union Find | [Tutorial](https://www.hackerearth.com/practice/notes/disjoint-set-union-union-find/)
 
 
 ### Wish List
