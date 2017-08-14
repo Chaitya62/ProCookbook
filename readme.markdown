@@ -16,18 +16,14 @@
 5. Floyd-Warshall's Algorithm
 
 ##### Not Catagorized
-1. [Merge Sort  (Incomplete trying inplace mergesort)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.22.8523&rep=rep1&type=pdf)
-2. [Karatsuba's multiplication]()
-3. [Union Find](https://www.hackerearth.com/practice/notes/disjoint-set-union-union-find/)
+1. Merge Sort  (Incomplete trying inplace mergesort) | [READ](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.22.8523&rep=rep1&type=pdf)
+2. Karatsuba's multiplication
+3. Union Find | [Tutorial](https://www.hackerearth.com/practice/notes/disjoint-set-union-union-find/)
 
 #### Number Theory
-1. [GCD](https://en.wikipedia.org/wiki/Greatest_common_divisor) 
-- [The Euclidean Algorithm](https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/the-euclidean-algorithm) 
-- [The Extended Euclidean Algorithm](http://www-math.ucdenver.edu/~wcherowi/courses/m5410/exeucalg.html)
+1. GCD | [wiki](https://en.wikipedia.org/wiki/Greatest_common_divisor) | [Euclidean Algorithm](https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/the-euclidean-algorithm) | [Extended Euclidean](http://www-math.ucdenver.edu/~wcherowi/courses/m5410/exeucalg.html)
 
-2. [Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes) 
-- [Sieve of Eratosthenes](http://primes.utm.edu/glossary/xpage/sieveoferatosthenes.html) 
-- [Examples](http://www.geeksforgeeks.org/sieve-of-eratosthenes/)
+2. Sieve of Eratosthenes | [wiki](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes) | [tutorial](http://primes.utm.edu/glossary/xpage/sieveoferatosthenes.html) | [Examples](http://www.geeksforgeeks.org/sieve-of-eratosthenes/)
 
 #### Data Structures
 1. Stack
@@ -51,6 +47,7 @@
 
 #### Resources
 ##### Useful Sites
+* [VisuAlgo](https://visualgo.net/en)
 * [HackerRank](http://hackerrank.com/) 
 * [Codeforces](http://codeforces.com/) 
 * [CodeChef](https://www.codechef.com/) 
@@ -63,49 +60,49 @@
 
 #### Algorithms
 
-1. [Knuth-Morris-Pratt Algorihm(KMP)](https://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm) - [Knuth–Morris–Pratt algorithm](http://www.ics.uci.edu/~eppstein/161/960227.html) - [Example](http://www.geeksforgeeks.org/searching-for-patterns-set-2-kmp-algorithm/)
-2. [Rabin-Karp Algorithm](https://en.wikipedia.org/wiki/Rabin%E2%80%93Karp_algorithm) - [Rabin-Karp and Knuth-Morris-Pratt Algorithms](https://www.topcoder.com/community/data-science/data-science-tutorials/introduction-to-string-searching-algorithms/) - [Example](http://www.geeksforgeeks.org/searching-for-patterns-set-3-rabin-karp-algorithm/)
-3. [Dijkstra's Algorithm(shortest Path)](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm) - [Dijkstra (Heap method)](https://www.topcoder.com/community/data-science/data-science-tutorials/introduction-to-graphs-and-their-data-structures-section-3/#dijkstra)
-4. [Floyd Warshall Algorithm]()
-5. [Sparse Table(RMQ)]()
-6. [Lowest Common Ancestor]()
-7. [Modular Exponentiation]()
-8. [Counting inversion]()
-9. [Euclid's Extended Algorithm]()
-10. [Knapsack problem]()
-11. [Aho-Corasick String Matching Algorithm]()
-12. [Strongly connected Components]()
-13. [Union-Find]()
-14. [Bellman Ford Algorithm]()
-15. [Convex Hull]()
-16. [K-d tree]()
-17. [Manacher's Algorithm]()
-18. [Sweep Line Algorithm]()
-19. [Stable Marriage Problem]()
-20. [Detecting Cycles in a Graph]()
-21. [Backtracking]()
-22. [Graph Coloring]()
-23. [Johnson's Alogrithm]()
-24. [Link Cut tree]()
-25. [Burnside Lemma]()
-26. [Mo's Algorithm]()
-27. [Minimum Spanning Tree]()
-28. [FFT]()
-29. [Towers of hanoi]()
-30. [Heacy Light Decomposition]()
-31. [Suffix Tree Automation(Pattern Searching)]()
-32. [Binary Indexed Tree]()
-33. [Z Algorithm]()
-34. [Line Intersection Algorithm]()
-35. [Topological Sorting]()
-36. [Binary Search]()
-37. [Hash Function]()
-38. [Segment Trees(Lazy Propagation)]()
-39. [Vertex Cover Problem]()
-40. [Interval Tree]()
-41. [Hungarian Algorithm]()
-42. [Matrix Exponentiation]()
-43. [Gaussian Elimination]()
-44. [Pollard Rho Integer Factorisation]()
-45. [Eulerian and Hamiltonian Path]()
-46. [Blossom/Edmond's Algorithm]()
+1. Knuth-Morris-Pratt Algorihm(KMP) | [Wiki](https://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm) | [Tutorial](http://www.ics.uci.edu/~eppstein/161/960227.html) | [Example](http://www.geeksforgeeks.org/searching-for-patterns-set-2-kmp-algorithm/)
+2. Rabin-Karp Algorithm | [Wiki](https://en.wikipedia.org/wiki/Rabin%E2%80%93Karp_algorithm) | [Tutorial](https://www.topcoder.com/community/data-science/data-science-tutorials/introduction-to-string-searching-algorithms/) | [Example](http://www.geeksforgeeks.org/searching-for-patterns-set-3-rabin-karp-algorithm/)
+3. Dijkstra's Algorithm(shortest Path) | [Wiki](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm) | [Tutorial](https://www.topcoder.com/community/data-science/data-science-tutorials/introduction-to-graphs-and-their-data-structures-section-3/#dijkstra)
+4. Floyd Warshall Algorithm 
+5. Sparse Table(RMQ)
+6. Lowest Common Ancestor 
+7. Modular Exponentiation
+8. Counting inversion
+9. Euclid's Extended Algorithm
+10. Knapsack problem
+11. Aho-Corasick String Matching Algorithm
+12. Strongly connected Components
+13. Union-Find
+14. Bellman Ford Algorithm
+15. Convex Hull
+16. K-d tree
+17. Manacher's Algorithm
+18. Sweep Line Algorithm
+19. Stable Marriage Problem
+20. Detecting Cycles in a Graph
+21. Backtracking
+22. Graph Coloring
+23. Johnson's Alogrithm
+24. Link Cut tree
+25. Burnside Lemma
+26. Mo's Algorithm
+27. Minimum Spanning Tree
+28. FFT
+29. Towers of hanoi
+30. Heacy Light Decomposition
+31. Suffix Tree Automation(Pattern Searching)
+32. Binary Indexed Tree
+33. Z Algorithm
+34. Line Intersection Algorithm
+35. Topological Sorting
+36. Binary Search
+37. Hash Function
+38. Segment Trees(Lazy Propagation)
+39. Vertex Cover Problem
+40. Interval Tree
+41. Hungarian Algorithm
+42. Matrix Exponentiation
+43. Gaussian Elimination
+44. Pollard Rho Integer Factorisation
+45. Eulerian and Hamiltonian Path
+46. Blossom/Edmond's Algorithm
