@@ -23,7 +23,7 @@ class UnionFind{
 			}
 		}
 		T root(T i){
-			cout<<A[i]<<endl;
+			//cout<<A[i]<<endl;
 			while(A[i].i != i ) i  = A[i].i;
 			return i;
 		}
