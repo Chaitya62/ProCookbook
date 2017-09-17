@@ -32,7 +32,7 @@
 1. Stack
 2. Trie
 3. Union Find | [Tutorial](https://www.hackerearth.com/practice/notes/disjoint-set-union-union-find/)
-
+4. Fenwick Tree [Tutorial](https://www.hackerearth.com/practice/notes/binary-indexed-tree-or-fenwick-tree/)
 
 ### Wish List
 
@@ -45,7 +45,7 @@
 6. <del>Tries</del>
 7. Bag
 8. Segment Tree
-9. Fenwick Tree
+9. <del>Fenwick Tree</del>
 10. HLD on Trees
 
 #### Resources
