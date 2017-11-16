@@ -26,7 +26,7 @@
 2. Sieve of Eratosthenes | [wiki](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes) | [tutorial](http://primes.utm.edu/glossary/xpage/sieveoferatosthenes.html) | [Examples](http://www.geeksforgeeks.org/sieve-of-eratosthenes/)
 
 3. Karatsuba's multiplication
-
+4. Miller-Rabin Test for prime numbers 
 
 #### Data Structures
 1. Stack
