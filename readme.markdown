@@ -27,6 +27,7 @@
 
 3. Karatsuba's multiplication
 4. Miller-Rabin Test for prime numbers 
+5. Euler's totient function 
 
 #### Data Structures
 1. Stack
