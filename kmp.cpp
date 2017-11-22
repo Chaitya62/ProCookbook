@@ -30,6 +30,8 @@ void calculatePatternArray(uii *A,string p){
 			i--;
 		}
 	}
+	for(uii i = 0;i<plen;i++) cout<<A[i]<<" ";
+	cout<<endl;
 	return;
 }
 void kmp(string p, string text){

@@ -110,3 +110,5 @@
 44. Pollard Rho Integer Factorisation
 45. Eulerian and Hamiltonian Path
 46. Blossom/Edmond's Algorithm
+47. Meet in the middle
+48. Constructive Algorithm
