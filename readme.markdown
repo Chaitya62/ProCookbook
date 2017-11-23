@@ -34,6 +34,7 @@
 2. Trie
 3. Union Find | [Tutorial](https://www.hackerearth.com/practice/notes/disjoint-set-union-union-find/)
 4. Fenwick Tree [Tutorial](https://www.hackerearth.com/practice/notes/binary-indexed-tree-or-fenwick-tree/)
+5. Linked List (Add more features)
 
 ### Wish List
 
