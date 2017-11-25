@@ -39,7 +39,10 @@ class LinkedList{
 		}
 
 		void add(int v){
-
+			if(len >= sizeLimit){
+				cout<<"Maximum size reached"<<endl;
+				return;
+			}
 			if(start->value == -1){
 				start->value = v;
 			}else{
@@ -56,7 +59,7 @@ class LinkedList{
 		void display(){
 			node* temp = start;
 			cout<<"START->";
-			while(temp->right != NULL){
+			while(temp != NULL){
 				cout<<temp->value<<"->";
 				temp = temp->right;
 			}
@@ -81,7 +84,7 @@ class LinkedList{
 
 		node* findAt(int x){
 			node *temp = start;
-			while(temp->right != NULL && x != 1){
+			while(temp != NULL && x != 1){
 				if(temp == NULL){
 					cout<<"Too few elements....";
 					return NULL;
@@ -95,6 +98,10 @@ class LinkedList{
 		}
 
 		void insertAt(int v, int x){
+			if(len >= sizeLimit){
+				cout<<"Maximum Size reached"<<endl;
+				return;
+			}
 			node* temp = findAt(x);
 			if(temp == NULL) return;
 			node* nn = newNode(v);
@@ -124,15 +131,21 @@ class LinkedList{
 
 
 int main(){
-	LinkedList a(10000);
+	LinkedList a(10);
 	a.add(5);
 	a.add(10);
 	a.add(100);
 	a.insertAt(0, 1);
-	for(int i = 0;i<1000;i++) a.add(i);
+	//for(int i = 0;i<4;i++) a.add(i);
 	a.insertAt(112, 3);
+	a.deleteAt(2);
 	a.add(12);
+	a.add(10);
 	a.deleteAt(4);
+	a.add(100);
+	a.add(101);
+	a.add(102);
+	a.display();
 	cout<<a.length()<<endl;
 
 	return 0;
