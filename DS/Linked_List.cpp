@@ -12,17 +12,17 @@ struct Node{
 
 class LinkedList{
 	private:
-		node* start,* end;
+		node* start,* last;
 		long long int len;
 		long long int sizeLimit;
 	public:
 		LinkedList(){
 			start = newNode(-1);
-			end = start;
+			last = start;
 			start->left = NULL;
-			end->right = NULL;
-			start->right = end;
-			end->left = end;
+			last->right = NULL;
+			start->right = last;
+			last->left = last;
 			len = 0;
 		}
 
@@ -47,10 +47,10 @@ class LinkedList{
 				start->value = v;
 			}else{
 				node* nn = newNode(v);
-				end->right = nn;
-				nn->left = end;
+				last->right = nn;
+				nn->left = last;
 				nn->right = NULL;
-				end = nn;
+				last = nn;
 			}
 			increaseLength();
 			return;
@@ -81,6 +81,25 @@ class LinkedList{
 			len--;
 			return 0;
 		}
+
+		node* begin(){
+			return start;
+		}
+
+		node* end(){
+			return last;
+		}
+
+		int getFirst(){
+			return start->value;
+		}
+
+		int getLast(){
+		
+			return last->value;
+		}
+
+
 
 		node* findAt(int x){
 			node *temp = start;
@@ -145,6 +164,9 @@ int main(){
 	a.add(100);
 	a.add(101);
 	a.add(102);
+	cout<<a.getFirst()<<endl;
+	cout<<a.getLast()<<endl;
+
 	a.display();
 	cout<<a.length()<<endl;
 
