@@ -41,7 +41,7 @@
 #### Data Structures
 1. Queues
 2. Binary Search Tree (All variants)
-3. Linked Lists
+3. <del>Linked Lists<del>
 4. Maps
 5. Priority Queue
 6. <del>Tries</del>
@@ -49,6 +49,8 @@
 8. Segment Tree
 9. <del>Fenwick Tree</del>
 10. HLD on Trees
+11. Stacks
+12. Skip Lists
 
 #### Resources
 ##### Useful Sites
