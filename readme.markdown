@@ -96,7 +96,7 @@
 27. Minimum Spanning Tree
 28. FFT
 29. Towers of hanoi
-30. Heacy Light Decomposition
+30. Heavy Light Decomposition
 31. Suffix Tree Automation(Pattern Searching)
 32. Binary Indexed Tree
 33. Z Algorithm
