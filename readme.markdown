@@ -35,6 +35,7 @@
 3. Union Find | [Tutorial](https://www.hackerearth.com/practice/notes/disjoint-set-union-union-find/)
 4. Fenwick Tree [Tutorial](https://www.hackerearth.com/practice/notes/binary-indexed-tree-or-fenwick-tree/)
 5. Linked List (Add more features)
+6. Interval Trees 
 
 ### Wish List
 
@@ -51,6 +52,7 @@
 10. HLD on Trees
 11. Stacks
 12. Skip Lists
+13. <del>Interval trees</del>
 
 #### Resources
 ##### Useful Sites
