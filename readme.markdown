@@ -72,48 +72,48 @@
 1. Knuth-Morris-Pratt Algorihm(KMP) | [Wiki](https://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm) | [Tutorial](http://www.ics.uci.edu/~eppstein/161/960227.html) | [Example](http://www.geeksforgeeks.org/searching-for-patterns-set-2-kmp-algorithm/)
 2. Rabin-Karp Algorithm | [Wiki](https://en.wikipedia.org/wiki/Rabin%E2%80%93Karp_algorithm) | [Tutorial](https://www.topcoder.com/community/data-science/data-science-tutorials/introduction-to-string-searching-algorithms/) | [Example](http://www.geeksforgeeks.org/searching-for-patterns-set-3-rabin-karp-algorithm/)
 3. Dijkstra's Algorithm(shortest Path) | [Wiki](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm) | [Tutorial](https://www.topcoder.com/community/data-science/data-science-tutorials/introduction-to-graphs-and-their-data-structures-section-3/#dijkstra)
-4. Floyd Warshall Algorithm 
-5. Sparse Table(RMQ)
-6. Lowest Common Ancestor 
-7. Modular Exponentiation
-8. Counting inversion
-9. Euclid's Extended Algorithm
-10. Knapsack problem
-11. Aho-Corasick String Matching Algorithm
-12. Strongly connected Components
-13. Union-Find
-14. Bellman Ford Algorithm
-15. Convex Hull
-16. K-d tree
-17. Manacher's Algorithm
-18. Sweep Line Algorithm
-19. Stable Marriage Problem
-20. Detecting Cycles in a Graph
-21. Backtracking
-22. Graph Coloring
-23. Johnson's Alogrithm
-24. Link Cut tree
-25. Burnside Lemma
-26. Mo's Algorithm
-27. Minimum Spanning Tree
-28. FFT
-29. Towers of hanoi
-30. Heavy Light Decomposition
-31. Suffix Tree Automation(Pattern Searching)
-32. Binary Indexed Tree
-33. Z Algorithm
-34. Line Intersection Algorithm
-35. Topological Sorting
-36. Binary Search
-37. Hash Function
-38. Segment Trees(Lazy Propagation)
-39. Vertex Cover Problem
-40. Interval Tree
-41. Hungarian Algorithm
-42. Matrix Exponentiation
-43. Gaussian Elimination
-44. Pollard Rho Integer Factorisation
-45. Eulerian and Hamiltonian Path
-46. Blossom/Edmond's Algorithm
-47. Meet in the middle
-48. Constructive Algorithm
+4. Floyd Warshall Algorithm [Wiki](https://en.wikipedia.org/wiki/Floyd%E2%80%93Warshall_algorithm) | [Tutorial](https://www.geeksforgeeks.org/dynamic-programming-set-16-floyd-warshall-algorithm/) 
+5. Sparse Table(RMQ) 
+6. Lowest Common Ancestor [Wiki](https://en.wikipedia.org/wiki/Lowest_common_ancestor) | [Tutorial](https://www.topcoder.com/community/data-science/data-science-tutorials/range-minimum-query-and-lowest-common-ancestor/) 
+7. Modular Exponentiation [Wiki](https://en.wikipedia.org/wiki/Modular_exponentiation) | [Tutorial](https://discuss.codechef.com/questions/20451/a-tutorial-on-fast-modulo-multiplication-exponential-squaring)
+8. Counting inversion [Wiki](https://en.wikipedia.org/wiki/Inversion_(discrete_mathematics)) | [Tutorial](https://www.geeksforgeeks.org/counting-inversions/)
+9. Euclid's Extended Algorithm [Wiki](https://www.geeksforgeeks.org/euclidean-algorithms-basic-and-extended/)  | [Tutorial](https://discuss.codechef.com/questions/20842/a-tutorial-on-the-extended-euclids-algorithm)
+10. Knapsack problem [Wiki](https://en.wikipedia.org/wiki/Knapsack_problem)  | [Tutorial](https://www.geeksforgeeks.org/knapsack-problem/)
+11. Aho-Corasick String Matching Algorithm [Wiki](https://en.wikipedia.org/wiki/Aho%E2%80%93Corasick_algorithm)  | [Tutorial](http://codeforces.com/blog/entry/14854)
+12. Strongly connected Components [Wiki](https://en.wikipedia.org/wiki/Strongly_connected_component)  | [Tutorial](https://www.hackerearth.com/practice/algorithms/graphs/strongly-connected-components/tutorial/)
+13. Union-Find [Wiki](https://en.wikipedia.org/wiki/Disjoint-set_data_structure)  | [Tutorial](https://www.hackerearth.com/practice/notes/disjoint-set-union-union-find/)
+14. Bellman Ford Algorithm [Wiki](https://en.wikipedia.org/wiki/Bellman%E2%80%93Ford_algorithm)  | [Tutorial](https://www.hackerearth.com/practice/algorithms/graphs/shortest-path-algorithms/tutorial/)
+15. Convex Hull [Wiki](https://en.wikipedia.org/wiki/Convex_hull_algorithms)  | [Tutorial](https://www.geeksforgeeks.org/convex-hull-set-1-jarviss-algorithm-or-wrapping/)
+16. K-d tree [Wiki](https://en.wikipedia.org/wiki/K-d_tree)  | [Tutorial](https://www.geeksforgeeks.org/k-dimensional-tree/)
+17. Manacher's Algorithm [Wiki](https://www.hackerearth.com/practice/algorithms/string-algorithm/manachars-algorithm/tutorial/)  | [Tutorial](https://en.wikipedia.org/wiki/Longest_palindromic_substring)
+18. Sweep Line Algorithm [Wiki](https://en.wikipedia.org/wiki/Sweep_line_algorithm)  | [Tutorial](https://www.topcoder.com/community/data-science/data-science-tutorials/line-sweep-algorithms/)
+19. Stable Marriage Problem [Wiki](https://en.wikipedia.org/wiki/Stable_marriage_problem)  | [Tutorial](https://www.geeksforgeeks.org/stable-marriage-problem/)
+20. Detecting Cycles in a Graph [Wiki](https://en.wikipedia.org/wiki/Cycle_graph)  | [Tutorial](https://www.geeksforgeeks.org/detect-cycle-in-a-graph/)
+21. Backtracking [Wiki](https://en.wikipedia.org/wiki/Backtracking)  | [Tutorial](https://www.hackerearth.com/practice/basic-programming/recursion/recursion-and-backtracking/tutorial/)
+22. Graph Coloring [Wiki](https://en.wikipedia.org/wiki/Graph_coloring)  | [Tutorial](https://www.geeksforgeeks.org/graph-coloring-applications/)
+23. Johnson's Alogrithm [Wiki](https://en.wikipedia.org/wiki/Johnson%27s_algorithm)  | [Tutorial](https://www.geeksforgeeks.org/johnsons-algorithm/)
+24. Link Cut tree [Wiki](https://en.wikipedia.org/wiki/Link/cut_tree)  | [Tutorial](https://courses.csail.mit.edu/6.851/spring12/scribe/L19.pdf) | [Video](https://www.youtube.com/watch?v=cyx63EI_jbo)
+25. Burnside Lemma [Wiki](https://en.wikipedia.org/wiki/Burnside%27s_lemma)  | [Tutorial](http://codeforces.com/blog/entry/51272)
+26. Mo's Algorithm [Wiki](http://codeforces.com/blog/entry/7383)  | [Tutorial](https://blog.anudeep2011.com/mos-algorithm/)
+27. Minimum Spanning Tree [Wiki](https://en.wikipedia.org/wiki/Minimum_spanning_tree)  | [Tutorial](https://www.hackerearth.com/practice/algorithms/graphs/minimum-spanning-tree/tutorial/)
+28. FFT [Wiki](https://en.wikipedia.org/wiki/Fast_Fourier_transform)  | [Tutorial](http://codeforces.com/blog/entry/43499)
+29. Towers of hanoi [Wiki](https://en.wikipedia.org/wiki/Tower_of_Hanoi)  | [Tutorial](https://www.geeksforgeeks.org/c-program-for-tower-of-hanoi/)
+30. Heavy Light Decomposition [Wiki](https://en.wikipedia.org/wiki/Heavy_path_decomposition)  | [Tutorial](https://blog.anudeep2011.com/heavy-light-decomposition/)
+31. Suffix Tree Automation(Pattern Searching) [Wiki](https://en.wikipedia.org/wiki/Suffix_tree)  | [Tutorial](https://www.hackerearth.com/practice/data-structures/advanced-data-structures/suffix-trees/tutorial/)
+32. Binary Indexed Tree [Wiki](https://en.wikipedia.org/wiki/Fenwick_tree)  | [Tutorial](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-indexed-trees/) 
+33. Z Algorithm [Wiki](https://en.wikipedia.org/wiki/String_searching_algorithm)  | [Tutorial](https://www.hackerearth.com/practice/algorithms/string-algorithm/z-algorithm/tutorial/)
+34. Line Intersection Algorithm [Wiki](https://en.wikipedia.org/wiki/Intersection_(Euclidean_geometry))  | [Tutorial](https://www.topcoder.com/community/data-science/data-science-tutorials/geometry-concepts-line-intersection-and-its-applications/)
+35. Topological Sorting [Wiki](https://en.wikipedia.org/wiki/Topological_sorting)  | [Tutorial](https://www.hackerearth.com/practice/algorithms/graphs/topological-sort/tutorial/)
+36. Binary Search [Wiki](https://en.wikipedia.org/wiki/Binary_search_algorithm)  | [Tutorial](https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/)
+37. Hash Function [Wiki]()  | [Tutorial]()
+38. Segment Trees(Lazy Propagation) [Wiki](https://en.wikipedia.org/wiki/Segment_tree)  | [Tutorial](https://www.topcoder.com/community/data-science/data-science-tutorials/range-minimum-query-and-lowest-common-ancestor/)
+39. Vertex Cover Problem [Wiki](https://en.wikipedia.org/wiki/Vertex_cover)  | [Tutorial](https://www.geeksforgeeks.org/vertex-cover-problem-set-2-dynamic-programming-solution-tree/)
+40. Interval Tree [Wiki](https://en.wikipedia.org/wiki/Interval_tree)  | [Tutorial](https://www.geeksforgeeks.org/interval-tree/)
+41. Hungarian Algorithm [Wiki](https://en.wikipedia.org/wiki/Hungarian_algorithm)  | [Tutorial](https://www.topcoder.com/community/data-science/data-science-tutorials/assignment-problem-and-hungarian-algorithm/)
+42. Matrix Exponentiation [Wiki](https://en.wikipedia.org/wiki/Matrix_exponential)  | [Tutorial](https://www.hackerearth.com/practice/notes/matrix-exponentiation-1/)
+43. Gaussian Elimination [Wiki](https://en.wikipedia.org/wiki/Gaussian_elimination)  | [Tutorial](https://www.geeksforgeeks.org/gaussian-elimination/)
+44. Pollard Rho Integer Factorisation [Wiki](https://en.wikipedia.org/wiki/Pollard%27s_rho_algorithm)  | [Tutorial](https://www.geeksforgeeks.org/pollards-rho-algorithm-prime-factorization/)
+45. Eulerian and Hamiltonian Path [Wiki](https://en.wikipedia.org/wiki/Hamiltonian_path) | [Wiki2](https://en.wikipedia.org/wiki/Eulerian_path)  | [Tutorial](https://www.cs.sfu.ca/~ggbaker/zju/math/euler-ham.html)
+46. Blossom/Edmond's Algorithm [Wiki](https://www.infoarena.ro/blog/meet-in-the-middle)  | [Tutorial](https://www.geeksforgeeks.org/meet-in-the-middle/)
+47. Meet in the middle [Wiki]()  | [Tutorial]()
+48. Constructive Algorithm [Wiki](https://en.wikipedia.org/wiki/Constructivism_(mathematics)) 
