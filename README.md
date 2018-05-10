@@ -16,6 +16,7 @@
 4. Dijkstra's Algorithm
 5. Floyd-Warshall's Algorithm
 6. Lowest common Ancestor
+7. Heavy Light Decomposition (create and query only)
 
 ##### Not Catagorized
 1. Merge Sort  (Incomplete trying inplace mergesort) | [READ](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.22.8523&rep=rep1&type=pdf)
