@@ -39,6 +39,32 @@
 5. Linked List (Add more features)
 6. Interval Trees 
 
+
+### Resources
+#### Useful Sites
+* [VisuAlgo](https://visualgo.net/en)
+* [HackerRank](http://hackerrank.com/) 
+* [Codeforces](http://codeforces.com/) 
+* [CodeChef](https://www.codechef.com/) 
+* [TopCoder](https://www.topcoder.com/)
+* [e-maxx](http://e-maxx.ru/) - for Russian readers
+* [e-maxx](https://e-maxx-eng.appspot.com/) - for English readers
+
+#### Courses
+
+##### Introduction courses
+* [MIT 6.006 Introduction to Algorithms, Fall 2011](https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+* [MIT 6.046J Design and Analysis of Algorithms, Spring 2015](https://www.youtube.com/watch?v=2P-yW7LQr08&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+
+##### Advance Courses
+* [Advanced Algorithms (COMPSCI 224), Harvard University](https://www.youtube.com/watch?v=0JUN9aDxVmI&list=PL2SOU6wwxB0uP4rJgf5ayhHWgw7akUWSf)
+* [MIT 6.851 Advanced Data Structures, Spring 2012](https://www.youtube.com/watch?v=T0yzrZL1py0&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
+
+
+
+
+
+
 ## Wish List
 
 #### Data Structures
@@ -56,25 +82,6 @@
 12. Skip Lists
 13. <del>Interval trees</del>
 
-#### Resources
-##### Useful Sites
-* [VisuAlgo](https://visualgo.net/en)
-* [HackerRank](http://hackerrank.com/) 
-* [Codeforces](http://codeforces.com/) 
-* [CodeChef](https://www.codechef.com/) 
-* [TopCoder](https://www.topcoder.com/)
-* [e-maxx](http://e-maxx.ru/) - for Russian readers
-* [e-maxx](https://e-maxx-eng.appspot.com/) - for English readers
-
-#### Courses
-
-##### Introduction courses
-* [MIT 6.006 Introduction to Algorithms, Fall 2011](https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
-* [MIT 6.046J Design and Analysis of Algorithms, Spring 2015](https://www.youtube.com/watch?v=2P-yW7LQr08&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
-
-#### Advance Courses
-* [Advanced Algorithms (COMPSCI 224), Harvard University](https://www.youtube.com/watch?v=0JUN9aDxVmI&list=PL2SOU6wwxB0uP4rJgf5ayhHWgw7akUWSf)
-* [MIT 6.851 Advanced Data Structures, Spring 2012](https://www.youtube.com/watch?v=T0yzrZL1py0&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
 
 #### Algorithms
 
