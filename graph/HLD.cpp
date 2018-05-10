@@ -210,7 +210,7 @@ int main() {
 	/*
 
 	Above Tree
-	Special Child marked with *
+	Special children marked with *
 
 
                     1
