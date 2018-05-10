@@ -1,19 +1,21 @@
-#### List of Algorithms
-##### Sorting
-    1. Bubble Sort 										[_Execution_ _time_ : 199.22 seconds ]  
-    2. Selection Sort									[_Execution_ _time_ : 75.192 seconds ]  
-    3. Insertion Sort									[_Execution_ _time_ : 52.833 seconds ]  
-    4. Shell Sort										[_Execution_ _time_ : 15.703 seconds ]  
-    5. Merge Sort										[_Execution_ _time_ :  0.86  seconds ]  
-    6. Quick Sort (without shuffling)					[_Execution_ _time_ :  0.817 seconds ]  
-    7. Count Sort										[_Execution_ _time_ :  0.645 seconds ]  
+## List of Algorithms
+#### Sorting
 
-#### Graph
+    1. Bubble Sort 										[Execution time : 199.22 seconds ]  
+    2. Selection Sort									[Execution time : 75.192 seconds ]  
+    3. Insertion Sort									[Execution time : 52.833 seconds ]  
+    4. Shell Sort										[Execution time : 15.703 seconds ]  
+    5. Merge Sort										[Execution time :  0.86  seconds ]  
+    6. Quick Sort (without shuffling)					[Execution time :  0.817 seconds ]  
+    7. Count Sort										[Execution time :  0.645 seconds ]  
+
+#### Graph/Tree
 1. Graph API  
 2. Depth first search  
 3. Breadth first search  
 4. Dijkstra's Algorithm
 5. Floyd-Warshall's Algorithm
+6. Lowest common Ancestor
 
 ##### Not Catagorized
 1. Merge Sort  (Incomplete trying inplace mergesort) | [READ](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.22.8523&rep=rep1&type=pdf)
@@ -37,7 +39,7 @@
 5. Linked List (Add more features)
 6. Interval Trees 
 
-### Wish List
+## Wish List
 
 #### Data Structures
 1. Queues
@@ -64,8 +66,15 @@
 * [e-maxx](http://e-maxx.ru/) - for Russian readers
 * [e-maxx](https://e-maxx-eng.appspot.com/) - for English readers
 
-##### Courses
-* []
+#### Courses
+
+##### Introduction courses
+* [MIT 6.006 Introduction to Algorithms, Fall 2011](https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+* [MIT 6.046J Design and Analysis of Algorithms, Spring 2015](https://www.youtube.com/watch?v=2P-yW7LQr08&list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp)
+
+#### Advance Courses
+* [Advanced Algorithms (COMPSCI 224), Harvard University](https://www.youtube.com/watch?v=0JUN9aDxVmI&list=PL2SOU6wwxB0uP4rJgf5ayhHWgw7akUWSf)
+* [MIT 6.851 Advanced Data Structures, Spring 2012](https://www.youtube.com/watch?v=T0yzrZL1py0&list=PLUl4u3cNGP61hsJNdULdudlRL493b-XZf)
 
 #### Algorithms
 
