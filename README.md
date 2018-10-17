@@ -1,3 +1,10 @@
+# ProCookbook
+
+This project started as my curiosity to understand the inner workings of the algorithms and data structure. Now, after writing enough of algorithms and data structure, it's time to put these algorithms to use.  Currently, I am looking for help to convert the project from just separate files to a python library which wraps C++.
+
+
+
+
 ## List of Algorithms
 #### Sorting
 
