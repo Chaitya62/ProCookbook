@@ -6,7 +6,9 @@ This project started as my curiosity to understand the inner workings of the alg
 
 
 ## List of Algorithms
+
 #### Sorting
+The following is a resource for various sorting techniques with their execution time. 
 
     1. Bubble Sort 										[Execution time : 199.22 seconds ]  
     2. Selection Sort									[Execution time : 75.192 seconds ]  
@@ -17,6 +19,9 @@ This project started as my curiosity to understand the inner workings of the alg
     7. Count Sort										[Execution time :  0.645 seconds ]  
 
 #### Graph/Tree
+
+Tree is special form of graph i.e. minimally connected graph and having only one path between any two vertices. In graph there can be more than one path i.e. graph can have uni-directional or bi-directional paths (edges) between nodes.
+
 1. Graph API  
 2. Depth first search  
 3. Breadth first search  
